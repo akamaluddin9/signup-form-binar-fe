@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+
+    <section class="registration-header">
+        <h1>Registration Form</h1>
+        <h3>Please fill out this form with the required information
+        </h3>
+    </section>
+
+    <section class="registration-form">
+        <div class="container">
+
+            <form action="/registered.html">
+                <div class="form-group">
+                    <label for="firstname"> First Name :</label>
+                    <input type="text" class="form-control" name="firstname" placeholder="First Name"
+                        style='font-size: 14px;' required>
+                </div>
+                <div class="form-group">
+                    <label for="lastname"> Last Name :</label>
+                    <input type="text" class="form-control" name="lastname" placeholder="Last Name"
+                        style='font-size: 14px;' required>
+                </div>
+                <div class="form-group">
+                    <label for="email"> Enter Your Email :</label>
+                    <input type="email" class="form-control" name="email" placeholder=" Email" style='font-size: 14px;'
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="password"> Enter Your Password :</label>
+                    <input type="password" class="form-control" name="password" placeholder=" Password"
+                        style='font-size: 14px;' required>
+                </div>
+                <div class="form-group">
+                    <label for="bio"> Provide Bio :</label>
+                    <textarea type="text-area" class="form-control" name="bio" placeholder="Bio"
+                        style='font-size: 14px;' required></textarea>
+                </div>
+
+                <div class="footer-group">
+                    <input type="radio" id="personal" name="account" value="Personal Account">
+                    <label for="personal">Personal Account</label>
+                    <input type="radio" id="business" name="account" value="Business Account">
+                    <label for="business">Business Account</label>
+                </div>
+
+                <div class="footer-group">
+                    <input type="checkbox" id="accept" name="accept" value="accept">
+                    <label for="accept"> I accept
+                        <a href="google.com"> the terms and condition </a>
+                    </label>
+                </div>
+        </div>
+
+        <button class="submit-btn"> Submit </button>
+
+
+        </form>
+    </section>
+
+
+
+
+
+</body>
+
+</html>

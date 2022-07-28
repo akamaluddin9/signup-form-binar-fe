@@ -1,0 +1,91 @@
+body {
+    background-color: #1B1B32;
+    color: #fff;
+    font-family: 'Inter';
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 24px;
+
+}
+
+input {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.registration-form {
+    margin: auto;
+    width: 50%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.form-control  {
+    width: 100%;
+    background: #101022;
+    color: #fff;
+    border: 1px solid #101022;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-control[type=text] {
+    padding: 12px 0px 11px 16px;
+}
+
+.form-control[type=email] {
+    padding: 12px 0px 11px 16px;
+}
+
+.form-control[type=password] {
+    padding: 12px 0px 11px 16px;
+}
+
+.form-control[type=text-area] {
+    padding: 12px 0px 84px 16px;
+}
+
+.form-group {
+    margin-top: 12px;
+}
+
+.footer-group {
+    margin-top: 32px;
+}
+
+.submit-btn {
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+    background-color: #1B1B32;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+
+button:hover {
+    background-color: bisque;
+}
